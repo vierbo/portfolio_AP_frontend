@@ -1,0 +1,21 @@
+      <section class="resume-section" id="about">
+            <div class="resume-section-content">
+                <!--La imagen aparece solo cunado esta en modo chiquito-->
+                <span class="d-block d-lg-none"><img class="img-thumbnail img-profile rounded-circle mx-auto mb-2" [src]="miPortfolio.persona.photo" alt="..." /></span>
+                
+                <h1 class="mb-0">{{miPortfolio.persona.fname}}<span class="text-primary">{{miPortfolio.persona.sname}}</span></h1>
+            <div class="subheading mb-5">
+                <span>{{miPortfolio.persona.about.title}}</span> 
+            </div>
+            <p class="lead mb-5">{{miPortfolio.persona.about.description}}</p>
+         
+        <div class="subheading mb-3"> 
+                    <a href=mailto:{{miPortfolio.persona.social.email}}>{{miPortfolio.persona.social.email}}</a>
+                </div>
+            <div class="social-icons">
+                <a class="social-icon" href={{miPortfolio.persona.social.linkedin}} target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a class="social-icon" href={{miPortfolio.persona.social.github}} target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0" />

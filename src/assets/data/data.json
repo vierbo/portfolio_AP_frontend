@@ -1,0 +1,35 @@
+{
+	"persona": {
+		"fname": "Javier",
+		"sname": "Boviez",
+		"photo":"../assets/img/profile.jpg",
+		"social": {
+			"linkedin": "https://www.linkedin.com/in/javierboviez/",
+			"github": "https://github.com/vierbo",
+			"email": "javierboviez@gmail.com"
+		},
+		"about": {
+			"title": "Analista & diseñador",
+			"description": "Soy analista de datos , emprendedor, padre de mellizos y melómano. Trabajo desde hace más de 10 años en  Análisis de Datos y Reportería. Paralelamente, formo parte de un emprendimiento familiar en el que diseñamos y comercializamos productos encuadernados con temáticas de la Cultura Pop."
+		},
+		"tags": ["#data", "#programming", "audio", "music"]
+	},
+	"education": [{
+		"title": "desarrollo Full Stack",
+		"institution": "INIT | Argentina Programa",
+		"description":"Desarrollo de heramientas y aplicaciones Web.",
+		"tags": ["#programming"],
+		"degree": "3er edición",
+		"start": "2022",
+		"end": "actualmente"
+		},
+		{
+		"title": "Data Scientist",
+		"institution": "Coderhouse",
+		"description":"Análisis de datos + Data Science",
+		"tags": ["#data", "#programming"],
+		"degree": "Top 10",
+		"start": "2021",
+		"end": "2022"
+		}]
+}
